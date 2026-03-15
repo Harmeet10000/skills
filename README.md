@@ -2,10 +2,6 @@
 
 > A curated collection of AI prompts, agent configurations, skills, and engineering resources for software development.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/Harmeet10000/Resources)](https://github.com/Harmeet10000/Resources/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Harmeet10000/Resources)](https://github.com/Harmeet10000/Resources/network)
-
 ## Topics
 
 - ai-prompts
