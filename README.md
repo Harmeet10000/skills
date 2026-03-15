@@ -30,6 +30,8 @@
 - product-management
 - marketing-automation
 - productivity-tools
+- computer-science-books
+- interview-preparation
 
 ## Contents
 
@@ -58,6 +60,25 @@ Specialized prompts and agent configurations organized by domain. All former age
 
 **Total: 147 Skills & Agents**
 
+### Programming Books (`/Programming Books`)
+A comprehensive collection of 1,000+ technical books and resources organized across 15 categories:
+
+- **AI Agents**: Agentic workflows and LLM applications
+- **Algo Trading**: Quantitative finance and algorithmic strategies
+- **Databases**: SQL, NoSQL, and data modeling
+- **DevOps**: CI/CD, containerization, and infrastructure
+- **Elixir**: Functional programming and concurrent systems
+- **Go**: Cloud-native development and concurrency
+- **Interviews**: Technical coding and architectural interview prep
+- **Leadership**: Engineering management and team building
+- **Linux**: Kernel internals and system administration
+- **Microservices**: Distributed systems and service mesh
+- **Networking**: Protocols, security, and infrastructure
+- **Performance**: Systems optimization and low-latency code
+- **Software Engineering**: Design patterns and clean code
+- **SRE**: Reliability engineering and observability
+- **System Design**: Large-scale architecture and scalability
+
 ## Usage
 
 Skills can be loaded into AI coding assistants (like Gemini CLI or Claude Code) to provide specialized context and instructions for different development tasks. 
@@ -71,6 +92,7 @@ Contributions are welcome! Here's how you can help:
 1. **Add new skills** - Create a new folder in the appropriate category under `/skills/` with your skill definition (`SKILL.md` or `.agent.md`)
 2. **Reorganize** - Propose better categorizations for existing skills
 3. **Improve existing** - Submit improvements to current skill instructions
+4. **Resources** - Suggest or add high-quality technical books to the collection
 
 ### Contribution Guidelines
 
@@ -86,21 +108,11 @@ prompts/
 ├── skills/           # Specialized prompts and agents by domain
 │   ├── ai-ml/
 │   ├── architecture/
-│   ├── backend/
-│   ├── business/
-│   ├── cloud-devops/
-│   ├── database/
-│   ├── design/
-│   ├── engineering-tools/
-│   ├── frontend/
-│   ├── legal/
-│   ├── marketing/
-│   ├── productivity-tools/
-│   ├── product-management/
-│   ├── research-analysis/
-│   ├── security/
-│   ├── testing/
-│   └── writing-docs/
+│   ├── ...
+├── Programming Books/  # Technical book references
+│   ├── AI Agents/
+│   ├── Algo Trading/
+│   ├── ...
 ```
 
 ## License
